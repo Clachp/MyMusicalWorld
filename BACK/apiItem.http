@@ -1,0 +1,110 @@
+@host=http://localhost:3200
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjo4NSwiaWF0IjoxNjQ0MzE1OTc5LCJleHAiOjE2NDQzMTcxNzl9.12hlcEDbR7orpRVt_TfMLuuAXqbddBhvb6Ew4ZUYf0U
+Content-Type: application/json; charset=utf-8
+
+###se connecter
+POST {{host}}/login
+Content-Type: application/json
+
+{
+        "mail": "bossman@mail.fr",
+        "lastname": "",
+        "firstname": "",
+        "pseudo": "",
+        "password": "bossman"
+    }
+
+
+###Ajouter un album à la bibli du user
+POST {{host}}/dashboard/album
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        "name": "abbey road",
+        "genre": "rock",
+        "artist": "beatles",
+        "year": "1969",
+        "urlImage": "balbal",
+        "apiId": 1
+        
+    }
+
+###Ajouter un artiste à la bibli du user
+POST {{host}}/dashboard/artist
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        "name": "le pere fouettard",
+        "urlImage": "ouilouilou",
+        "apiId": 2312
+        
+    }
+
+###Ajouter une chanson à la bibli du user
+POST {{host}}/dashboard/track
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        "name": "Lay lady lay",
+        "genre": "folk",
+        "artist": "Bob Dylan",
+        "year": "1969",
+        "album": "Nashville Skyline",
+        "urlImage": "Bob",
+        "apiId": 56987,
+        "urlSample": "the link"
+        
+    }
+
+### Supprimer un album de sa discothèque
+DELETE  {{host}}/dashboard/album
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        "name": "abbey road",
+        "genre": "rock",
+        "artist": "beatles",
+        "year": "1969",
+        "urlImage": "balbal",
+        "apiId": 1
+        
+    }
+
+### Supprimer un artiste de sa discothèque
+DELETE  {{host}}/dashboard/artist
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        "name": "le pere fouettard",
+        "urlImage": "ouilouilou",
+        "apiId": 2312
+        
+    }
+
+
+
+### Supprimer une chanson de sa discothèque
+DELETE  {{host}}/dashboard/track
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+        
+        "apiId": 56987
+
+        
+    }
+
+### Récupérer la musique d'un utilisateur
+GET {{host}}/dashboard
+Authorization:{{token}}
+Content-Type: application/json
+
+### Récupérer la musique d'un utilisateur
+GET {{host}}/dashboard/Alive
+Content-Type: application/json

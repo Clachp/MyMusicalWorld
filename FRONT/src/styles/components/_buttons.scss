@@ -1,0 +1,21 @@
+.button-green.button-green {
+  background-color: $green;
+  color: #ffffff;
+  text-transform: initial;
+  text-decoration: none;
+  padding: 6px 8px;
+}
+
+.button-green.button-green:hover {
+  background-color: darken($color: $green, $amount: 10);
+}
+
+.button-red.button-red {
+  background-color: $red;
+  color: #ffffff;
+  text-transform: initial;
+}
+
+.button-red.button-red:hover {
+  background-color: darken($color: $red, $amount: 10);
+}

@@ -1,0 +1,18 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+
+.dashboard-card.dashboard-card {
+  box-shadow: 1px 2px 5px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiAlert-icon {
+  margin: 0;
+}
+
+.MuiAlert-action.MuiAlert-action {
+  margin: 0;
+  padding: 0;
+}

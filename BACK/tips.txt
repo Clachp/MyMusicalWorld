@@ -1,0 +1,16 @@
+sqitch init <nom_projet> --engine pg  --top-dir migrations --target db:pg:<nom_bdd>
+
+sqitch add <nom_etape> -m "<descrption_breve_etape>"
+       {init souvent au debut}
+
+pour le back:
+// code à ajouter dans back:
+// const corsOptions = {
+//   exposedHeaders: `Authorization`, --ok
+// };
+// package.json dans racine feat-testsUser --ok
+// renvoie un token même si mauvais login --ok
+// pas besoin du user entier pour le body du token (juste userId) --ok
+
+sqitch deploy <uri database>
+sqitch target add heroku <uri database> 

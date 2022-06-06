@@ -1,0 +1,77 @@
+{
+  "albums": [
+    {
+    "name": "Let It Be",
+    "genre": "Rock",
+    "artist": "The Beatles",
+    "year":  "1969",
+    "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+    "apiId": 55557
+    },
+    {
+      "name": "Let It Be",
+      "genre": "Rock",
+      "artist": "The Beatles",
+      "year":  "1969",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 66666
+    },
+    {
+      "name": "Let It Be",
+      "genre": "Rock",
+      "artist": "The Beatles",
+      "year":  "1969",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 65654456
+    }
+  ],
+  "artists": [
+    {
+    "name": "The Beatles",
+    "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+    "apiId": 66677667
+    },
+    {
+      "name": "The Beatles",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 7787778
+    },
+    {
+      "name": "The Beatles",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 53334433
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Let It Be",
+      "genre": "Rock",
+      "artist": "The Beatles",
+      "year":  "1969",
+      "album": "Let It Be",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 7998787,
+      "urlSample": ""
+    },
+    {
+      "name": "Let It Be",
+      "genre": "Rock",
+      "artist": "The Beatles",
+      "year":  "1969",
+      "album": "Let It Be",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 45454454,
+      "urlSample": ""
+    },
+    {
+      "name": "Let It Be",
+      "genre": "Rock",
+      "artist": "The Beatles",
+      "year":  "1969",
+      "album": "Let It Be",
+      "urlImage": "https://s1.qwant.com/thumbr/0x380/b/c/657c6cddba436d3fe4e28fcdeb3fd48b626b44d62a6db3b5d8c1473bc4ad31/beatles-let-it-be-the-beatles-vinile-lp2.jpg?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2Fbeatles-let-it-be-the-beatles-vinile-lp2.jpg&q=0&b=1&p=0&a=0",
+      "apiId": 908977,
+      "urlSample": ""
+    }
+  ]
+}

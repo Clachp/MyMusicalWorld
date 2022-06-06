@@ -1,0 +1,52 @@
+@host=http://localhost:3200
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjo4OCwiaWF0IjoxNjQ0MzI4MzIyLCJleHAiOjE2NDQzMjk1MjJ9.-cA464tvKSeokXiPCoAsdWXzYHH8qTNNhF2htX0UMfE
+Authorization:{{token}}
+Content-Type: application/json
+
+
+### ajouter un user
+POST {{host}}/signup
+Content-Type: application/json
+
+{
+    "mail": "clé@laposte.net",
+    "lastname": "Ch",
+    "firstname": "Clé",
+    "pseudo": "fgh",
+    "password":"12345",
+    "password_confirmation": "12345"
+     }
+
+###se connecter
+POST {{host}}/login
+Content-Type: application/json
+
+{
+        "mail": "bossman@mail.fr",
+        "lastname": "",
+        "firstname": "",
+        "pseudo": "",
+        "password": "bossman"
+    }
+
+### update user
+PATCH {{host}}/user
+Authorization:{{token}}
+Content-Type: application/json
+
+{
+  "mail": "bossman@mail.fr",
+    "lastname": "Bosse",
+    "firstname": "Uggo",
+    "pseudo": "Alive",
+    "password":"bossman12",
+    "password_confirmation": "bossman12"
+}
+
+### supprimer son compte
+DELETE {{host}}/user
+Authorization:{{token}}
+Content-Type: application/json
+
+
+

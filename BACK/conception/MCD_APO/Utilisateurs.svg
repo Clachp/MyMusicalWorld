@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="317" height="492" view_box="0 0 317 492"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 18 Jan 2022 05:42:42</desc>
+
+<rect id="frame" x="0" y="0" width="317" height="492" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association AIME -->
+<line x1="49" y1="220" x2="49" y2="68" stroke="#74add1" stroke-width="2"/>
+<text x="54.0" y="144" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="151" y1="68" x2="49" y2="68" stroke="#74add1" stroke-width="2"/>
+<text x="77" y="85.0" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-AIME">
+	<path d="M 58 43 a 14 14 90 0 1 14 14 V 68 h -46 V 57 a 14 14 90 0 1 14 -14" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+	<path d="M 72 68.0 v 11 a 14 14 90 0 1 -14 14 H 40 a 14 14 90 0 1 -14 -14 V 68.0 H 46" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+	<rect x="26" y="43" width="46" height="50" fill="none" rx="14" stroke="#74add1" stroke-width="2"/>
+	<line x1="26" y1="68" x2="72" y2="68" stroke="#74add1" stroke-width="1"/>
+	<text x="33" y="60.7" fill="#000000" font-family="Verdana" font-size="12">AIME</text>
+</g>
+
+<!-- Association APPRECIE -->
+<line x1="268" y1="220" x2="268" y2="68" stroke="#74add1" stroke-width="2"/>
+<text x="273.0" y="161" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="151" y1="68" x2="268" y2="68" stroke="#74add1" stroke-width="2"/>
+<text x="203" y="85.0" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-APPRECIE">
+	<path d="M 292 43 a 14 14 90 0 1 14 14 V 68 h -76 V 57 a 14 14 90 0 1 14 -14" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+	<path d="M 306 68.0 v 11 a 14 14 90 0 1 -14 14 H 244 a 14 14 90 0 1 -14 -14 V 68.0 H 76" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+	<rect x="230" y="43" width="76" height="50" fill="none" rx="14" stroke="#74add1" stroke-width="2"/>
+	<line x1="230" y1="68" x2="306" y2="68" stroke="#74add1" stroke-width="1"/>
+	<text x="237" y="60.7" fill="#000000" font-family="Verdana" font-size="12">APPRECIE</text>
+</g>
+
+<!-- Association LIKE -->
+<line x1="151" y1="398" x2="151" y2="220" stroke="#74add1" stroke-width="2"/>
+<text x="156.0" y="305" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="151" y1="68" x2="151" y2="220" stroke="#74add1" stroke-width="2"/>
+<text x="156.0" y="144" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-LIKE">
+	<path d="M 159 195 a 14 14 90 0 1 14 14 V 220 h -44 V 209 a 14 14 90 0 1 14 -14" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+	<path d="M 173 220.0 v 11 a 14 14 90 0 1 -14 14 H 143 a 14 14 90 0 1 -14 -14 V 220.0 H 44" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+	<rect x="129" y="195" width="44" height="50" fill="none" rx="14" stroke="#74add1" stroke-width="2"/>
+	<line x1="129" y1="220" x2="173" y2="220" stroke="#74add1" stroke-width="1"/>
+	<text x="136" y="212.7" fill="#000000" font-family="Verdana" font-size="12">LIKE</text>
+</g>
+
+<!-- Entity ALBUM -->
+<g id="entity-ALBUM">
+	<g id="frame-ALBUM">
+		<rect x="9" y="152" width="80" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="9" y="177.0" width="80" height="111" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="9" y="152" width="80" height="136" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="9" y1="177" x2="89" y2="177" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="27" y="169.7" fill="#000000" font-family="Verdana" font-size="12">ALBUM</text>
+	<text x="14" y="194.7" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="211.7" fill="#000000" font-family="Verdana" font-size="12">genre</text>
+	<text x="14" y="228.8" fill="#000000" font-family="Verdana" font-size="12">artiste</text>
+	<text x="14" y="245.8" fill="#000000" font-family="Verdana" font-size="12">année</text>
+	<text x="14" y="262.8" fill="#000000" font-family="Verdana" font-size="12">URL_image</text>
+	<text x="14" y="279.8" fill="#000000" font-family="Verdana" font-size="12">API_id</text>
+	<line x1="14" y1="282" x2="54" y2="282" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity ARTISTE -->
+<g id="entity-ARTISTE">
+	<g id="frame-ARTISTE">
+		<rect x="228" y="169" width="80" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="228" y="194.0" width="80" height="77" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="228" y="169" width="80" height="102" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="228" y1="194" x2="308" y2="194" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="241" y="186.7" fill="#000000" font-family="Verdana" font-size="12">ARTISTE</text>
+	<text x="233" y="211.7" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="233" y="228.8" fill="#000000" font-family="Verdana" font-size="12">genre</text>
+	<text x="233" y="245.8" fill="#000000" font-family="Verdana" font-size="12">URL_image</text>
+	<text x="233" y="262.8" fill="#000000" font-family="Verdana" font-size="12">API_id</text>
+	<line x1="233" y1="265" x2="273" y2="265" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity UTILISATEUR -->
+<g id="entity-UTILISATEUR">
+	<g id="frame-UTILISATEUR">
+		<rect x="104" y="9" width="94" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="104" y="34.0" width="94" height="93" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="104" y="9" width="94" height="118" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="104" y1="34" x2="198" y2="34" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="109" y="26.7" fill="#000000" font-family="Verdana" font-size="12">UTILISATEUR</text>
+	<text x="109" y="51.7" fill="#000000" font-family="Verdana" font-size="12">mail</text>
+	<line x1="109" y1="54" x2="135" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="109" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="109" y="85.8" fill="#000000" font-family="Verdana" font-size="12">prénom</text>
+	<text x="109" y="102.8" fill="#000000" font-family="Verdana" font-size="12">pseudo</text>
+	<text x="109" y="119.8" fill="#000000" font-family="Verdana" font-size="12">mot de passe</text>
+</g>
+
+<!-- Entity TITRE -->
+<g id="entity-TITRE">
+	<g id="frame-TITRE">
+		<rect x="110" y="313" width="82" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="110" y="338.0" width="82" height="145" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="110" y="313" width="82" height="170" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="110" y1="338" x2="192" y2="338" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="132" y="330.7" fill="#000000" font-family="Verdana" font-size="12">TITRE</text>
+	<text x="115" y="355.7" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="115" y="372.7" fill="#000000" font-family="Verdana" font-size="12">genre</text>
+	<text x="115" y="389.7" fill="#000000" font-family="Verdana" font-size="12">artiste</text>
+	<text x="115" y="406.8" fill="#000000" font-family="Verdana" font-size="12">année</text>
+	<text x="115" y="423.8" fill="#000000" font-family="Verdana" font-size="12">album</text>
+	<text x="115" y="440.8" fill="#000000" font-family="Verdana" font-size="12">URL_image</text>
+	<text x="115" y="457.8" fill="#000000" font-family="Verdana" font-size="12">API_id</text>
+	<line x1="115" y1="460" x2="155" y2="460" stroke="#000000" stroke-width="1"/>
+	<text x="115" y="474.8" fill="#000000" font-family="Verdana" font-size="12">URL_extrait</text>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.header.header {
+  background-color: $dark-grey;
+}
+
+.header__brand {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Monoton', cursive;
+
+  @include mq-mobile {
+    font-size: rem(24);
+  }
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: $green !important;
+  color: #ffffff;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover .header__link--active {
+    @include mq-desktop {
+      color: #ffffff;
+    }
+}
+
+.header__link.header__link {
+  @include mq-desktop {
+    text-decoration: none;
+  }
+}
+
+.header__link--active {
+  @include mq-desktop {
+    color: $green;
+  }
+}

@@ -1,0 +1,26 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.footer {
+  @include mq-mobile {
+    display: none;
+  }
+
+  @include mq-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    background-color: $dark-grey;
+    color: white;
+  }
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

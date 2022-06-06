@@ -1,0 +1,84 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.addmusic__modal .MuiPaper-root {
+  width: 100%;
+  max-width: 915px;
+  margin: 15px;
+}
+
+.addmusic__search.addmusic__search {
+  overflow-y: unset;
+}
+
+.addmusic__title.addmusic__title {
+
+  @include mq-mobile {
+    padding-bottom: 0;
+    font-size: rem(16);
+  }
+
+}
+
+.addmusic__search .MuiBox-root {
+  display: flex;
+
+  @include mq-mobile {
+    flex-direction: column;
+  }
+
+}
+
+.addmusic__modal .search__input.search__input {
+  @include mq-mobile {
+    width: calc(100% - 15px);
+    margin-bottom: 20px;
+  }
+
+  @include mq-desktop {
+    width: 100%;
+  }
+}
+
+.addmusic__modal .search__wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  @include mq-desktop {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.addmusic__modal .search__type.search__type {
+  
+  @include mq-mobile {
+    width: calc(45%);
+  }
+
+}
+
+.addmusic__modal .result__loading {
+  background-color: $grey;
+  padding: 10px;
+  display: flex;
+}
+
+.addmusic__modal .result__cards {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $grey;
+  padding: 10px;
+  gap: 10px;
+
+  @include mq-mobile {
+    flex-direction: column;
+  }
+
+  @include mq-desktop {
+    justify-content: center;
+  }
+
+}
+

@@ -1,0 +1,57 @@
+[
+  {
+    "firstname":"Claire",
+    "lastname": "CHAPON",
+    "url_picture": "https://avatars.githubusercontent.com/u/73597464?v=4",
+    "roles": [
+      "Scrum Master", 
+      "Développeur Back"
+    ],
+    "githubLink": "https://github.com/Clachp",
+    "linkedinLink": "https://www.linkedin.com/in/claire-chapon-70b176110/"
+  },
+  {
+    "firstname":"Anthony",
+    "lastname": "DURAND",
+    "url_picture": "https://avatars.githubusercontent.com/u/75164439?v=4",
+    "roles": [
+      "Git Master",
+      "Développeur Front"
+    ],
+    "githubLink": "https://github.com/AnthonyDurand23",
+    "linkedinLink": "https://www.linkedin.com/in/durandanthony/"
+  },
+  {
+    "firstname":"Arnaud",
+    "lastname": "REBEL",
+    "url_picture": "https://avatars.githubusercontent.com/u/29731037?v=4",
+    "roles": [
+      "Product Owner",
+      "Développeur Front"
+    ],
+    "githubLink": "https://github.com/Rebelfront",
+    "linkedinLink": "https://www.linkedin.com/in/arnaudrebel/"
+  },
+  {
+    "firstname":"Hervé",
+    "lastname": "DELAUNAY",
+    "url_picture": "https://avatars.githubusercontent.com/u/89028062?v=4",
+    "roles": [
+      "Lead Dev Front", 
+      "Développeur Front"       
+    ],
+    "githubLink": "https://github.com/HerveDelaunay",
+    "linkedinLink": "https://www.linkedin.com/in/herv%C3%A9-delaunay/"
+  },
+  {
+    "firstname":"Valentin",
+    "lastname": "DESCHINS",
+    "url_picture": "https://avatars.githubusercontent.com/u/82374126?v=4",
+    "roles": [
+      "Lead Dev Back",
+      "Développeur Back"       
+    ],
+    "githubLink": "https://github.com/ValR08813",
+    "linkedinLink": "https://www.linkedin.com/in/valentin-deschins-48b656130/"
+  }
+]

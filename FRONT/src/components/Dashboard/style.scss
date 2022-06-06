@@ -1,0 +1,77 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+}
+.dashboard__loading {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.dashboard__title {
+  @include mq-mobile {
+    font-size: rem(20);
+  }
+  @include mq-desktop {
+    font-size: rem(30);
+  }
+  text-align: center;
+  text-decoration: underline;
+  color: $dark-grey;
+}
+
+.dashboard__cat-title {
+  @include mq-mobile {
+    justify-content: center;
+  }
+  display: flex;
+  align-items: center;
+  font-size: rem(19);
+  color: $dark-grey;
+}
+
+.dashboard__content {
+  @include mq-mobile {
+    padding-top: 10px;
+  }
+  @include mq-desktop {
+    padding-top: 50px;
+    flex-grow: 1;
+  }
+}
+
+.dashboard__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.dashboard__add-mobile.dashboard__add-mobile, .dashboard__share-mobile.dashboard__share-mobile {
+  position: fixed;
+  right: 30px;
+  @include mq-mobile {
+    right: 20px;
+  }
+}
+
+.dashboard__add-mobile.dashboard__add-mobile {
+  @include mq-mobile {
+    bottom: 90px;
+  }
+  @include mq-desktop {
+    bottom: 170px;
+  }
+}
+
+.dashboard__share-mobile.dashboard__share-mobile {
+  @include mq-mobile {
+    bottom: 20px;
+  }
+  @include mq-desktop {
+    bottom: 100px;
+  }
+}

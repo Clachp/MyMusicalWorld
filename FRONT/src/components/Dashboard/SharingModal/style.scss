@@ -1,0 +1,29 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.sharing-modal .MuiPaper-root.MuiPaper-root {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+}
+
+.sharing-modal .sharing-modal__input.sharing-modal__input {
+  width: calc(100% - 15px);
+}
+
+.sharing-modal__input .MuiInput-input {
+  
+  @include mq-mobile {
+    font-size: rem(13);
+  }
+}
+
+.sharing-modal__title.sharing-modal__title {
+
+  @include mq-mobile {
+    padding-bottom: 0;
+    font-size: rem(15);
+  }
+
+}

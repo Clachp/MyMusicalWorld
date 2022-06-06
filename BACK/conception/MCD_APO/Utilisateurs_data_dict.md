@@ -1,0 +1,23 @@
+- mail
+- nom
+- prénom
+- pseudo
+- mot de passe
+- nom
+- genre
+- artiste
+- année
+- URL_image
+- API_id
+- nom
+- genre
+- URL_image
+- API_id
+- nom
+- genre
+- artiste
+- année
+- album
+- URL_image
+- API_id
+- URL_extrait

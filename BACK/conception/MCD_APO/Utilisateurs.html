@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>AIME</span> (
+    <span class='foreign primary'>API_id</span>,
+    <span class='foreign primary'>mail</span>
+  )
+</div>
+<div>
+  <span class='relation'>UTILISATEUR</span> (
+    <span class='primary'>mail</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>prénom</span>,
+    <span class='normal'>pseudo</span>,
+    <span class='normal'>mot de passe</span>
+  )
+</div>
+<div>
+  <span class='relation'>APPRECIE</span> (
+    <span class='foreign primary'>API_id</span>,
+    <span class='foreign primary'>mail</span>
+  )
+</div>
+<div>
+  <span class='relation'>ALBUM</span> (
+    <span class='normal'>nom</span>,
+    <span class='normal'>genre</span>,
+    <span class='normal'>artiste</span>,
+    <span class='normal'>année</span>,
+    <span class='normal'>URL_image</span>,
+    <span class='primary'>API_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>LIKE</span> (
+    <span class='foreign primary'>API_id</span>,
+    <span class='foreign primary'>mail</span>
+  )
+</div>
+<div>
+  <span class='relation'>ARTISTE</span> (
+    <span class='normal'>nom</span>,
+    <span class='normal'>genre</span>,
+    <span class='normal'>URL_image</span>,
+    <span class='primary'>API_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>TITRE</span> (
+    <span class='normal'>nom</span>,
+    <span class='normal'>genre</span>,
+    <span class='normal'>artiste</span>,
+    <span class='normal'>année</span>,
+    <span class='normal'>album</span>,
+    <span class='normal'>URL_image</span>,
+    <span class='primary'>API_id</span>,
+    <span class='normal'>URL_extrait</span>
+  )
+</div>
+</div>
+</body>
+</html>

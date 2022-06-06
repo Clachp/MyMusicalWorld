@@ -1,0 +1,61 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.not-found {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.not-found__title {
+  margin: 0 0 50px 0;
+  text-align: center;
+  font-weight: unset;
+  font-family: 'Monoton';
+  letter-spacing: 5px;
+
+  @include mq-mobile {
+    font-size: rem(30);
+  }
+
+  @include mq-desktop {
+    font-size: rem(40);
+  }
+}
+
+.not-found__content {
+  margin: 0;
+  font-weight: bold;
+
+  @include mq-mobile {
+    font-size: rem(100);
+  }
+
+  @include mq-desktop {
+    font-size: rem(200);
+  }
+}
+
+.not-found__logo {
+  animation: rotating 2s linear infinite;
+
+  @include mq-mobile {
+    width: 80px;
+  }
+
+  @include mq-desktop {
+    width: 160px;
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

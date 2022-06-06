@@ -1,0 +1,94 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.addmusic__modal .result__card {
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  @include mq-desktop {
+    width: 435px;
+  }
+}
+
+.result__card .card__image.card__image {
+  padding: 10px 0 10px 10px;
+
+  @include mq-mobile {
+    width: 90px;
+    height: 90px;
+    
+  }
+
+  @include mq-desktop {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.result__card .card__right {
+  width: 100%;
+  padding: 10px;
+}
+
+.result__card .card__content {
+  text-align: center;
+  padding: 0;
+}
+
+.result__card .card__content:last-child {
+  padding-bottom: 0;
+}
+
+.result__card .content__title {
+
+  @include mq-mobile {
+    font-size: rem(18);
+    margin: 0;
+  }
+
+}
+
+.result__card .content__infos {
+  margin-bottom: 5px;
+}
+
+.result__card .infos__txt {
+  margin: 0;
+
+  @include mq-mobile {
+    font-size: rem(12);
+  }
+
+  @include mq-desktop {
+    font-size: rem(16);
+  }
+}
+
+.result__card .card__buttons{
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result__card .content__button {
+  background-color: $blue;
+  color: #ffffff;
+  text-transform: initial;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.result__card .content__button:hover {
+  background-color: darken($color: $blue, $amount: 10);
+}
+
+.result__card .button-green {
+  padding: 0 5px;
+}
+
+.result__card .button-green:disabled {
+  color: white;
+}

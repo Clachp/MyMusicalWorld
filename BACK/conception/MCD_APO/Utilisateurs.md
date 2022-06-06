@@ -1,0 +1,7 @@
+**AIME** (<ins>_API_id_</ins>, <ins>_mail_</ins>)  
+**UTILISATEUR** (<ins>mail</ins>, nom, prénom, pseudo, mot de passe)  
+**APPRECIE** (<ins>_API_id_</ins>, <ins>_mail_</ins>)  
+**ALBUM** (nom, genre, artiste, année, URL_image, <ins>API_id</ins>)  
+**LIKE** (<ins>_API_id_</ins>, <ins>_mail_</ins>)  
+**ARTISTE** (nom, genre, URL_image, <ins>API_id</ins>)  
+**TITRE** (nom, genre, artiste, année, album, URL_image, <ins>API_id</ins>, URL_extrait)

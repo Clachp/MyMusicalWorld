@@ -1,0 +1,11 @@
+AIME, 0N ALBUM,  0N UTILISATEUR
+UTILISATEUR : mail, nom, prénom, pseudo, mot de passe
+APPRECIE, 0N ARTISTE,  0N UTILISATEUR
+
+ALBUM : _nom, genre, artiste, année, URL_image, _API_id
+LIKE, 0N TITRE,  0N UTILISATEUR
+ARTISTE : _nom, genre, URL_image, _API_id
+
+:
+TITRE : _nom, genre, artiste, année, album, URL_image, _API_id, URL_extrait
+:

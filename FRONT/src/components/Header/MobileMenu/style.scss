@@ -1,0 +1,58 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.mobile-menu {
+  @include mq-mobile {
+    margin-left: auto;
+  }
+
+  @include mq-desktop {
+    display: none;
+  }
+}
+
+.mobile_menu__title {
+  @include mq-mobile {
+    text-align: center;
+    font-size: rem(16);
+    font-weight: 600;
+  }
+}
+
+.mobile-menu__link {
+  @include mq-mobile {
+    display: block;
+    color: $dark-grey;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-left: 16px;
+  }
+}
+
+.mobile-menu__link {
+  @include mq-mobile {
+    width: 100%;
+    color: $dark-grey;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border-bottom: 1px solid $grey;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+}
+
+.mobile-menu__link--active {
+  @include mq-mobile {
+    color: $green;
+  }
+}

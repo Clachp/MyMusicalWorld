@@ -1,0 +1,9 @@
+-- Verify MyMusicalWorld:alter_table_liaison on pg
+
+BEGIN;
+
+SELECT * FROM USER_LIKES_ALBUM WHERE false;
+SELECT * FROM USER_LIKES_TRACK WHERE false;
+SELECT * FROM USER_LIKES_ARTIST WHERE false;
+
+ROLLBACK;

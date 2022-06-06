@@ -1,0 +1,22 @@
+%%mocodo
+:
+AIME: #API_id->ALBUM->API_id, _#mail->UTILISATEUR->mail
+:
+UTILISATEUR: mail, nom, prénom, pseudo, mot de passe
+:
+APPRECIE: #API_id->ARTISTE->API_id, _#mail->UTILISATEUR->mail
+:
+
+
+:
+ALBUM: nom, genre, artiste, année, URL_image, _API_id
+:
+LIKE: #API_id->TITRE->API_id, _#mail->UTILISATEUR->mail
+:
+ARTISTE: nom, genre, URL_image, _API_id
+:
+
+
+:::
+TITRE: nom, genre, artiste, année, album, URL_image, _API_id, URL_extrait
+:::

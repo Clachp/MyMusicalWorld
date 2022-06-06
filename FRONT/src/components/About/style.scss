@@ -1,0 +1,40 @@
+@import 'src/styles/abstracts/vars';
+@import 'src/styles/abstracts/mixins';
+@import 'src/styles/abstracts/functions';
+
+.about {
+  margin: 0 !important;
+  padding-bottom: 20px;
+  background-color: $grey;
+  text-align: center;
+
+  @include mq-mobile {
+    margin: 20px;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  @include mq-desktop {
+    padding: 20px;
+    font-size: rem(26);
+    flex-grow: 1;
+  }
+}
+
+.about__cards {
+  display: flex;
+
+  @include mq-mobile {  
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @include mq-desktop {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
